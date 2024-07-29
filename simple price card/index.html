@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play with z-index</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        section{
+            width: 80%;
+            margin: 0 auto;
+        }
+        .main{
+            width: 35%;
+            height: 50px;
+            margin-top: 150px;
+            color: black;
+            background-color: #f16464;
+            padding: 20px;
+            border-radius: 10px;
+            position: relative;
+        }
+        .main > h3{
+            text-align: center;
+            margin-top: 10px;
+            font-size: 25px;
+        }
+        .price{
+            width: 50%;
+            height: 60px;
+            background-color: rgb(23, 22, 22);
+            border-radius: 10px;
+            position: absolute;
+            bottom: 58px;
+            left: 185px;
+            
+        }
+        .price > h3{
+            text-align: center;
+            color: #e4e3e3;
+            padding-top: 17px;
+
+            
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="main">
+            <h3>Buy Now</h3>
+            <span class="price">
+                <h3>15% Off</h3>
+            </span>
+        </div>
+    </section>
+    
+</body>
+</html>
